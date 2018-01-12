@@ -21,7 +21,7 @@ public class MainTest {
         Main main = new Main("TestMain");
 
         //ACT
-        String name = main.getName() + "-SomeFailingString";
+        String name = "SomeVeryDifferentString";
 
         //ASSERT
         assertEquals("TestMain", name);
